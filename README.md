@@ -3,6 +3,7 @@
 [![GoTemplate](https://img.shields.io/badge/go/template-black?logo=go)](https://github.com/SchwarzIT/go-template)
 
 Projeto simples em go, para ler um .xlsx e separar por colunas adicionando tudo entre "".
+This is a simple Go project that reads a .xlsx file, separates it by columns, and encloses everything in double quotes.
 
 The project uses `make` to make your life easier. If you're not familiar with Makefiles you can take a look at [this quickstart guide](https://makefiletutorial.com).
 
