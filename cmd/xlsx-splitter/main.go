@@ -15,8 +15,9 @@ import (
 )
 
 func main() {
-	if err := run(); err != nil {
-		fmt.Fprintf(os.Stderr, "an error occurred: %s\n", err)
+	err := run()
+	if err != nil {
+		fmt.Printf("An error occurred: %s\n", err)
 		os.Exit(1)
 	}
 }
